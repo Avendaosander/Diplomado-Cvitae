@@ -1,0 +1,39 @@
+/* Globales */
+:root{
+   --primario: #075985;
+   --secundario: #0369a1;
+   --fondo: #dbeafe;
+   --texto: #e0f2fe;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.body-index {
+   background-color: var(--fondo);
+}
+
+.content {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   gap: 20px;
+}
+
+.link {
+   background-color: var(--primario);
+   color: var(--texto);
+   padding: 20px 20px 20px 20px;
+   border-radius: 15px;
+   font-size: 25px;
+   font-weight: medium;
+   &:hover {
+      background-color: var(--secundario);
+   }
+}
