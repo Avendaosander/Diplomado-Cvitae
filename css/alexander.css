@@ -98,7 +98,10 @@ main {
                display: flex;
                align-items: center;
                justify-content: space-between;
-   
+               
+               & > h3 {
+                  font-size: 18px;
+               }
             }
             
             & > span {
@@ -113,6 +116,10 @@ main {
             width: 100%;
             align-items: center;
             justify-content: space-between;
+            
+            & > h3 {
+               font-size: 18px;
+            }
          }
       }
    }
@@ -157,6 +164,10 @@ main {
                display: flex;
                align-items: center;
                justify-content: space-between;
+
+               & > h3 {
+                  font-size: 18px;
+               }
 
                & > span {
                   opacity: 0.7;
